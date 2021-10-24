@@ -1,4 +1,4 @@
-"""sortire_backend_core URL Configuration
+"""core URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("sortire.urls", namepsace="sortire")),
-    path("api/", include("sortire_api.urls", namespace="sortire.api")),
+    path("", include("sortire.urls", name="sortire")),
+    path("api/", include("sortire_api.urls", name="sortire.api")),
 ]

@@ -13,4 +13,5 @@ Modular and adaptive data handling directly in the web. Goal is to simplify data
 
 1. Goto /sortire_backend/venv/scripts
 2. Run "activate"
-3. From basedir, run "py manage.py runserver"
+3. Goto /sortire_backend
+4. Run "py manage.py runserver"
