@@ -6,7 +6,7 @@ Modular and adaptive data handling directly in the web. Goal is to simplify data
 
 ## Dev enviroment for Frontend
 
-1. Goto /sortire_fronted
+1. Goto /sortire_frontend
 2. run "yarn start"
 
 ## Dev enviroment for Backend
